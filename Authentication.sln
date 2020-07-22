@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "oauth", "oauth", "{982CECAA-9A5E-4FED-B81A-B3F5FD3759D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{8694DBEF-7AA9-4D6A-974D-BFF4694CE482}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{8694DBEF-7AA9-4D6A-974D-BFF4694CE482}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{D86C0950-5CFA-4734-9611-D8BDAC02E5D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +19,17 @@ Global
 		{8694DBEF-7AA9-4D6A-974D-BFF4694CE482}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8694DBEF-7AA9-4D6A-974D-BFF4694CE482}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8694DBEF-7AA9-4D6A-974D-BFF4694CE482}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86C0950-5CFA-4734-9611-D8BDAC02E5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86C0950-5CFA-4734-9611-D8BDAC02E5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86C0950-5CFA-4734-9611-D8BDAC02E5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86C0950-5CFA-4734-9611-D8BDAC02E5D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8694DBEF-7AA9-4D6A-974D-BFF4694CE482} = {982CECAA-9A5E-4FED-B81A-B3F5FD3759D3}
+		{D86C0950-5CFA-4734-9611-D8BDAC02E5D6} = {982CECAA-9A5E-4FED-B81A-B3F5FD3759D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3D26CCDF-54F6-4C71-94D1-CB6960AC9B15}
